@@ -10,57 +10,72 @@
 </head>
 
 <body>
-    <nav class="nav">
-        <div class="nav-wrapper">
-            <div class="top">
-                <div class="top__close">
-                    <button class="button">
-                        <img src="assets/img/header/close.svg" alt="Закрыть">
-                    </button>
-                    <img src="assets/img/header/logo.svg" alt="Логотип" class="logo">
-                </div>
-                <div class="top__search">
-                    <button class="button">
-                        <img src="assets/img/header/search.svg" alt="Поиск">
-                    </button>
-                </div>
-            </div>
-            <div class="main">
-                <div class="burger">
-                    <h3 class="burger__title">Ремонт техники</h3>
-                    <ul class="burger__list">
-                        <li class="burger__item"><a href="#">Услуги и сервисы</a></li>
-                        <li class="burger__item"><a href="#">Корпоративным клиентам</a></li>
-                        <li class="burger__item"><a href="#">Продавцам техники</a></li>
-                        <li class="burger__item"><a href="#">Партнерам</a></li>
-                        <li class="burger__item"><a href="#">Производителям</a></li>
-                        <li class="burger__item"><a href="#">Наши сервисные центры</a></li>
-                        <li class="burger__item"><a href="#">Контакты</a></li>
-                    </ul>
-                </div>
-                <div class="info">
-                    <div class="info__buttons">
+    <div class="modal-window">
+        <div class="overlay"></div>
+        <aside class="aside">
+            <div class="aside__wrapper">
+                <div class="aside-head">
+                    <div class="aside-head__close">
                         <button class="button">
-                            <img src="assets/img/header/04.svg" alt="Звонок">
+                            <img src="assets/img/header/close.svg" alt="Закрыть">
                         </button>
+                        <img src="assets/img/header/logo.svg" alt="Логотип" class="logo">
+                    </div>
+                    <div class="aside-head__search">
                         <button class="button">
-                            <img src="assets/img/header/05.svg" alt="Сообщение">
-                        </button>
-                        <button class="button">
-                            <img src="assets/img/header/06.svg" alt="Аккаунт">
+                            <img src="assets/img/header/search.svg" alt="Поиск">
                         </button>
                     </div>
-                    <a class="info__link info___mail" href="mailto:mail@cps.com">mail@cps.com</a>
-                    <a class="info__link info___phone" href="tel:88008908900">8 800 890 8900</a>
-                    <div class="languages">
-                        <a class="languages__ru languages--active" href="#">RU</a>
-                        <a class="languages__en" href="#">EN</a>
-                        <a class="languages__ch" href="#">CH</a>
+                </div>
+                <div class="aside-body">
+                    <div class="navigation">
+                        <ul class="navigation__list">
+                            <li class="navigation__item navigation__item--active"><a href="#">Ремонт техники</a></li>
+                            <li class="navigation__item"><a href="#">Услуги и сервисы</a></li>
+                            <li class="navigation__item"><a href="#">Корпоративным клиентам</a></li>
+                            <li class="navigation__item"><a href="#">Продавцам техники</a></li>
+                            <li class="navigation__item"><a href="#">Партнерам</a></li>
+                            <li class="navigation__item"><a href="#">Производителям</a></li>
+                            <li class="navigation__item"><a href="#">Наши сервисные центры</a></li>
+                            <li class="navigation__item"><a href="#">Контакты</a></li>
+                        </ul>
+                    </div>
+                    <div class="info">
+                        <ul class="buttons-list">
+                            <li class="info__button">
+                                <button class="button">
+                                    <img src="assets/img/header/04.svg" alt="Звонок">
+                                </button>
+                            </li>
+                            <li class="info__button">
+                                <button class="button">
+                                    <img src="assets/img/header/05.svg" alt="Сообщение">
+                                </button>
+                            </li>
+                            <li class="info__button">
+                                <button class="button">
+                                    <img src="assets/img/header/06.svg" alt="Аккаунт">
+                                </button>
+                            </li>
+                        </ul>
+                        <a class="info__link info___mail" href="mailto:mail@cps.com">mail@cps.com</a>
+                        <a class="info__link info___phone" href="tel:88008908900">8 800 890 8900</a>
+                        <ul class="languages-list">
+                            <li class="languages-list__ru languages--active">
+                                <a href="#">RU</a>
+                            </li>
+                            <li class="languages-list__en">
+                                <a href="#">EN</a>
+                            </li>
+                            <li class="languages-list__ch">
+                                <a href="#">CH</a>
+                            </li>
+                        </ul>
                     </div>
                 </div>
             </div>
-        </div>
-    </nav>
+        </aside>
+    </div>
 </body>
 
 </html>
